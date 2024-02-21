@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 import ConditionContent from "./components/ConditionContent";
+import DynamicListContent from "./components/DynamicListContent";
 import DynamicStyle from "./components/DynamicStyle";
 import OnlineShop from "./components/OnlineShop";
 import TabButton from "./components/TabButton";
@@ -73,6 +74,9 @@ function App() {
         <DynamicStyle />
 
 
+        {/* task 8 */}
+
+        <DynamicListContent />
 
       </section>
     </>

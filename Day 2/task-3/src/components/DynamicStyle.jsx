@@ -6,12 +6,12 @@ const DynamicStyle = () => {
 
 
     const handleClick = () => {
-        setColor(color => !)
+        setColor(isColor => !isColor)
     }
 
   return (
     <div>
-      <p className={handleClick ? 'red' : 'grey'}>Style me!</p>
+      <p className={color ? 'active' : undefined}>Style me!</p>
       <button onClick={handleClick}>Toggle style</button>
     </div>
   );
