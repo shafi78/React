@@ -6,7 +6,7 @@ const ConfigureCounter = ({ onSet }) => {
   const [enteredNumber, setEnteredNumber] = useState(0);
 
   function handleChange(event) {
-    setEnteredNumber(+event.target.value);
+    setEnteredNumber(event.target.value);
   }
 
   function handleSetClick() {
